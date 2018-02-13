@@ -20,7 +20,7 @@
     
     [FIRApp configure];
     [FIRMessaging messaging].delegate = self;
-    
+    // changes temp
     if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_9_x_Max)
     {
         UIUserNotificationType allNotificationTypes =
